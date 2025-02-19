@@ -5,5 +5,7 @@ global.playingmusictime = 0;
 
 
 
+nu song(["Soul of a Friend, Soul of a Protecter"], "dichromatic", m_tamako,,,,,,)
 
-nu song(["it's literally just wind"], "wind", m_wind)
+nu song(["The Evening Ascent"], "mountain", m_mountain,,,,,,)
+
