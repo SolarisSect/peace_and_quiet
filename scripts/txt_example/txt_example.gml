@@ -4,7 +4,7 @@ function txt_example() { //note the inherited scope partying
 	
 	msg = [
 	
-	txt("* heya.", AEON.NEUTRAL, SPRITEPOS.RIGHT),
+	txt("* heya.", AEON.NEUTRAL, SPRITEPOS.RIGHT, function() {music_set(mus.dichromatic)}),
 	txt("* you've been busy, huh?", AEON.HEH),
 	txt("* ...", AEON.HEH, SPRITEPOS.MIDRIGHT),
 	txt("* so, i've got a question for ya.", AEON.LOOKRIGHT),
