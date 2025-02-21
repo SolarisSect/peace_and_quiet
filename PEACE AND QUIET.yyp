@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bullets","folderPath":"folders/Bullets.yy",},
@@ -58,7 +58,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"pragma","path":"scripts/pragma/pragma.yy",},},
@@ -297,6 +297,7 @@
     {"id":{"name":"c_shootdesign","path":"scripts/c_shootdesign/c_shootdesign.yy",},},
     {"id":{"name":"o_screenshake","path":"objects/o_screenshake/o_screenshake.yy",},},
     {"id":{"name":"m_myoku","path":"sounds/m_myoku/m_myoku.yy",},},
+    {"id":{"name":"o_persistent","path":"objects/o_persistent/o_persistent.yy",},},
     {"id":{"name":"z_draw_percent","path":"shaders/z_draw_percent/z_draw_percent.yy",},},
     {"id":{"name":"s_lasertestcc","path":"sprites/s_lasertestcc/s_lasertestcc.yy",},},
     {"id":{"name":"chr_","path":"scripts/chr_/chr_.yy",},},
@@ -355,7 +356,6 @@
     {"roomId":{"name":"testzone","path":"rooms/testzone/testzone.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

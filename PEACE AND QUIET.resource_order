@@ -261,6 +261,7 @@
     {"name":"c_shootdesign","order":15,"path":"scripts/c_shootdesign/c_shootdesign.yy",},
     {"name":"o_screenshake","order":20,"path":"objects/o_screenshake/o_screenshake.yy",},
     {"name":"m_myoku","order":8,"path":"sounds/m_myoku/m_myoku.yy",},
+    {"name":"o_persistent","order":28,"path":"objects/o_persistent/o_persistent.yy",},
     {"name":"z_draw_percent","order":25,"path":"shaders/z_draw_percent/z_draw_percent.yy",},
     {"name":"s_lasertestcc","order":4,"path":"sprites/s_lasertestcc/s_lasertestcc.yy",},
     {"name":"c_clearradius","order":5,"path":"scripts/c_clearradius/c_clearradius.yy",},
