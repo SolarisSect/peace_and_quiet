@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 120.0,
   "parent": {
     "name": "Music",
     "path": "folders/Music.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "m_visitor",
+  "soundFile": "m_visitor.ogg",
   "type": 0,
   "volume": 1.0,
 }

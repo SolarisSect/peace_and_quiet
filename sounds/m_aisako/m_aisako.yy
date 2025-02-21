@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 150.0,
   "parent": {
     "name": "Music",
     "path": "folders/Music.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "m_aisako",
+  "soundFile": "m_aisako.ogg",
   "type": 0,
   "volume": 1.0,
 }
