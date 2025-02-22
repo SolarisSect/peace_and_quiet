@@ -4,11 +4,7 @@ function menu(buttons_, draw_=c_null, onback_=c_null) constructor {
 	onback = munction(onback_);
 }
 
-function mbutton(x_, y_, onselect_, text_="", draw_=function() {
-	draw_set_alpha(.4+hovered*.6);
-	draw_string(x, y, text)
-	draw_reset();
-}) constructor {
+function mbutton(x_, y_, onselect_, text_="", draw_=c_buttdraw) constructor {
 	x = x_;
 	y = y_;
 	onselect = munction(onselect_);
@@ -20,3 +16,9 @@ function mbutton(x_, y_, onselect_, text_="", draw_=function() {
 /*#macro absorb \
 get_arguments(); \
 var*/
+
+function c_buttdraw() {
+	draw_set_alpha(.4+hovered*.6);
+	draw_string(x, y, text)
+	draw_reset();
+}

@@ -239,6 +239,7 @@
     {"id":{"name":"bint_sort","path":"scripts/bint_sort/bint_sort.yy",},},
     {"id":{"name":"keyboard_check_advanced","path":"scripts/keyboard_check_advanced/keyboard_check_advanced.yy",},},
     {"id":{"name":"baseItem","path":"scripts/baseItem/baseItem.yy",},},
+    {"id":{"name":"s_example","path":"sprites/s_example/s_example.yy",},},
     {"id":{"name":"sex","path":"scripts/sex/sex.yy",},},
     {"id":{"name":"s_lasfullcc","path":"sprites/s_lasfullcc/s_lasfullcc.yy",},},
     {"id":{"name":"lapp","path":"scripts/lapp/lapp.yy",},},

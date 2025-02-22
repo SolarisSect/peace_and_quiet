@@ -205,6 +205,7 @@
     {"name":"bint_sort","order":2,"path":"scripts/bint_sort/bint_sort.yy",},
     {"name":"keyboard_check_advanced","order":8,"path":"scripts/keyboard_check_advanced/keyboard_check_advanced.yy",},
     {"name":"baseItem","order":1,"path":"scripts/baseItem/baseItem.yy",},
+    {"name":"s_example","order":31,"path":"sprites/s_example/s_example.yy",},
     {"name":"sex","order":10,"path":"scripts/sex/sex.yy",},
     {"name":"s_lasfullcc","order":3,"path":"sprites/s_lasfullcc/s_lasfullcc.yy",},
     {"name":"lapp","order":13,"path":"scripts/lapp/lapp.yy",},
