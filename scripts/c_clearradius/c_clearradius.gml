@@ -11,5 +11,5 @@ function clearradius(_x, _y, radius, strong=false, includemine=false) {
 	return cleared;
 }
 function clearscreen() {
-	c_clearradius(MIDWID, MIDHEI, 999, true, false);
+	//c_clearradius(MIDWID, MIDHEI, 999, true, false);
 }

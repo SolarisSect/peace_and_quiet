@@ -3,7 +3,7 @@ function maidenpit(size=40, color=c_white, target=global.me) {
 	//if get_value(self, "activetype") == ACTIVES.BOMB color = c_green;
 	//if get_value(self, "activetype") == ACTIVES.SIDEARM color = c_cyan;
 	var bullets = shoot(target.x, target.y, 0, 0, bul.maidenpit, c_white, function() {
-		c_clearradius(x, y, size);
+		//c_clearradius(x, y, size);
 		alpha -= .1;
 		if alpha <= 0 instance_destroy();
 	}, function() {
