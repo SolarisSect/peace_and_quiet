@@ -1,1 +1,1 @@
-textbox_create(txt_example);
+textbox_create(txt_peace);
