@@ -10,6 +10,8 @@ function chardata(name_="drip", displayname_="among", sprite_=s_null, talksound_
 	texteffects = texteffects_;
 	namecolor = namecolor_;
 	sprcount = 0;
+	val = sprite_get_number(sprite)-1;
+	char = self;
 	addspr = function(name_) {
 		var myfriend = self;
 		self[$name_] = {
