@@ -21,12 +21,12 @@ function st_textnvl() {
 		lb--;
 		textheight -= ftheight;
 	}
-	color = c_white;
+	color = c_black;
 	size = 1;
 	angle = 0;
 	alpha = 1;
-	color = c_white;
-	color2 = c_white;
+	color = c_black;
+	color2 = c_black;
 	textpos = new vec2();
 	var mychar = "";
 	var j;
@@ -35,7 +35,7 @@ function st_textnvl() {
 		draw_set_halign(fa_right);
 		draw_text(x+namepos.x, y+lb*ftheight+namepos.y, backlog[j].guy.displayname);
 		draw_set_halign(fa_left);
-		draw_set_color(c_white);
+		draw_set_color(c_black);
 		for (i=1; i<=string_length(backlog[j].text); i++) {
 			mychar = string_char_at(backlog[j].text, i);
 
@@ -52,15 +52,15 @@ function st_textnvl() {
 				xpos += string_width(mychar)*size;
 			}
 		}
-		draw_set_color(c_white);
+		draw_set_color(c_black);
 		draw_set_alpha(1);
 		lb += 1.5;
-		color = c_white;
+		color = c_black;
 		size = 1;
 		angle = 0;
 		alpha = 1;
-		color = c_white;
-		color2 = c_white;
+		color = c_black;
+		color2 = c_black;
 		mychar = "";
 		xpos = 0;
 	}
@@ -68,7 +68,7 @@ function st_textnvl() {
 	draw_set_halign(fa_right);
 	draw_text(x+namepos.x, y+lb*ftheight+namepos.y, talkers[0].displayname);
 	draw_set_halign(fa_left);
-	draw_set_color(c_white);
+	draw_set_color(c_black);
 	for (i=1; i<=charpos; i++) {
 		mychar = string_char_at(msg[talkpos].text, i);
 		textpos.x = x+xpos-width/2+wiggle.x+shake.y;
@@ -88,6 +88,6 @@ function st_textnvl() {
 		//log(x+width/2, y+height);
 		draw_meaning(x+width/2, y+height, "*",,,,, easemult(ac_sin, waitcount, 200, .3)+.5);
 	}
-	draw_set_color(c_white);
+	draw_set_color(c_black);
 	draw_set_alpha(1);
 }

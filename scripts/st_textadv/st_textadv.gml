@@ -5,7 +5,7 @@ function st_textadv() {
 	draw_set_halign(fa_center);
 	draw_text(namepos.x, namepos.y, talkers[0].displayname);
 	draw_set_halign(fa_left);
-	draw_set_color(c_white);
+	draw_set_color(c_black);
 	
 	var xpos = 0;
 	var lb = 0;
@@ -16,7 +16,7 @@ function st_textadv() {
 		lb--;
 		textheight -= ftheight;
 	}
-	color = c_white;
+	color = c_black;
 	size = 1;
 	angle = 0;
 	alpha = 1;
@@ -47,6 +47,6 @@ function st_textadv() {
 		draw_text(x+width/2, y+height, "*"); //"you can advance text now" thing.
 		draw_set_alpha(1);
 	}
-	draw_set_color(c_white);
+	draw_set_color(c_black);
 	draw_set_alpha(1);
 }
