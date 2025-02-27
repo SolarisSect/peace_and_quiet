@@ -3,7 +3,6 @@ global.playingmusic = new song();
 global.playingmusicdata = 0;
 global.playingmusictime = 0;
 
-
 nu song(["Sealed Youkai"], "title", m_title, u, u, u, u, u, 3.374, 39.374);
 
 nu song(["Don't Worry, I'm Just Stoppin' By!"], "visitor", m_visitor, u, u, u, u, u, 3.334, 110.335);
@@ -16,3 +15,4 @@ nu song(["Soul of a Friend, Soul of a Protecter"], "dichromatic", m_tamako, u, u
 
 nu song(["The Evening Ascent"], "mountain", m_mountain, u, u, u, u, u, 07.995, 136.001);
 
+nu song(["top 10 gaster beats to relax and study to"], "null", m_null);

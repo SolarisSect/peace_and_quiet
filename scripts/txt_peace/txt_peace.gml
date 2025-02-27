@@ -2,7 +2,7 @@ function txt_peace() { //silence.
 	
 	msg = [
 	
-	txt("It's a quiet, autumnal afternoon in the village as a kitsune is nestled in slumber."),
+	txt("It's a quiet, autumnal afternoon in the village as a kitsune is nestled in slumber.", function() {music_set(mus.null)}),
 	txt("She dreams of what she considers to be better days, as her reverie wanders to faces that she hasn't been able to forget in her long life."),
 	txt("Her dream fixates on one face in particular, one she thought to be lost in the far distance until recently."),
 	txt("A face with a relationship she thought she had destroyed, or perhaps had never truly formed. She couldn't really figure out which."),
