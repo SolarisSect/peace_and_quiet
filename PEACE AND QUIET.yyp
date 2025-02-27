@@ -58,7 +58,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"pragma","path":"scripts/pragma/pragma.yy",},},
@@ -122,6 +122,7 @@
     {"id":{"name":"z_enwhiten","path":"shaders/z_enwhiten/z_enwhiten.yy",},},
     {"id":{"name":"munction","path":"scripts/munction/munction.yy",},},
     {"id":{"name":"string_match_property","path":"scripts/string_match_property/string_match_property.yy",},},
+    {"id":{"name":"menu","path":"scripts/menu/menu.yy",},},
     {"id":{"name":"rescale","path":"scripts/rescale/rescale.yy",},},
     {"id":{"name":"charpush","path":"scripts/charpush/charpush.yy",},},
     {"id":{"name":"s_bulgem","path":"sprites/s_bulgem/s_bulgem.yy",},},
@@ -349,6 +350,7 @@
     {"id":{"name":"txt_","path":"scripts/txt_/txt_.yy",},},
     {"id":{"name":"array_compose","path":"scripts/array_compose/array_compose.yy",},},
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},},
+    {"id":{"name":"om_menu","path":"objects/om_menu/om_menu.yy",},},
     {"id":{"name":"se_shootsmall","path":"sounds/se_shootsmall/se_shootsmall.yy",},},
     {"id":{"name":"o_movie","path":"objects/o_movie/o_movie.yy",},},
     {"id":{"name":"draw_polygon_ticks","path":"scripts/draw_polygon_ticks/draw_polygon_ticks.yy",},},
@@ -359,7 +361,6 @@
     {"roomId":{"name":"testzone","path":"rooms/testzone/testzone.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
