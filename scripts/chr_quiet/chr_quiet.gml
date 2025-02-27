@@ -8,6 +8,7 @@ MYOKU.addspr("EMBARRASSED");
 MYOKU.addspr("THOUGHTFUL");
 MYOKU.addspr("FROWNING");
 MYOKU.addspr("ANNOYED");
+MYOKU.addspr("SILLY");
 
 globalvar AISAKO;
 nu chardata("tanuki", "Aisako",,, 1,,,,, c_black);
