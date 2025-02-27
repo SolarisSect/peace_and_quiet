@@ -58,7 +58,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"pragma","path":"scripts/pragma/pragma.yy",},},
@@ -225,7 +225,6 @@
     {"id":{"name":"array_condense","path":"scripts/array_condense/array_condense.yy",},},
     {"id":{"name":"ac_sin","path":"animcurves/ac_sin/ac_sin.yy",},},
     {"id":{"name":"draw_polygon","path":"scripts/draw_polygon/draw_polygon.yy",},},
-    {"id":{"name":"snd_knock","path":"sounds/snd_knock/snd_knock.yy",},},
     {"id":{"name":"color_difference","path":"scripts/color_difference/color_difference.yy",},},
     {"id":{"name":"easemult","path":"scripts/easemult/easemult.yy",},},
     {"id":{"name":"s_bulpoint","path":"sprites/s_bulpoint/s_bulpoint.yy",},},
@@ -253,6 +252,7 @@
     {"id":{"name":"s_null","path":"sprites/s_null/s_null.yy",},},
     {"id":{"name":"gcd","path":"scripts/gcd/gcd.yy",},},
     {"id":{"name":"song","path":"scripts/song/song.yy",},},
+    {"id":{"name":"m_knock","path":"sounds/m_knock/m_knock.yy",},},
     {"id":{"name":"s_lasertestwo","path":"sprites/s_lasertestwo/s_lasertestwo.yy",},},
     {"id":{"name":"s_hsnspike","path":"sprites/s_hsnspike/s_hsnspike.yy",},},
     {"id":{"name":"is_client","path":"scripts/is_client/is_client.yy",},},
@@ -363,6 +363,7 @@
     {"roomId":{"name":"testzone","path":"rooms/testzone/testzone.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
