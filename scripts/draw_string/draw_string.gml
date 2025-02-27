@@ -1,4 +1,4 @@
-function draw_string(x, y, str, font=draw_get_font(), scale=1, color=draw_get_color(), angle=0, alpha=draw_get_alpha(), maxwidth=9999, lineseperation=14) {
+function draw_string(x, y, str, font=draw_get_font(), scale=1, color=draw_get_color(), angle=0, alpha=draw_get_alpha(), maxwidth=9999, lineseperation=28) {
 	x += pi/30;
 	y += pi/30;
 	//x = round(x);

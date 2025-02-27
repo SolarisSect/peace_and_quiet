@@ -1,12 +1,14 @@
 var z=0;
 var w=0;
-var dist = 14;
+var dist = 28;
+var xdraw = 70;
+var ydraw = 90;
 title = new menu([
-	new mbutton(10, dist*z+++10, game_end, "kys"),
-	new mbutton(10, dist*z+++10, function() {mymenu = profiles; pos=0}, "propiles (normal for profiles)"),
-	new mbutton(10, dist*z+++10, function() {mymenu = musicroom; pos=0}, "mroom (short for music room)"),
-	new mbutton(10, dist*z+++10, function() {mymenu = credits; pos=0}, "creds (short for credits)"),
-	new mbutton(10, dist*z+++10, function() {textbox_create(txt_funtimes); kys}, "start mny awewome tokiko simulator"),
+	new mbutton(xdraw, dist*z+++ydraw, game_end, "Exit"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {mymenu = credits; pos=0}, "Credits"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {mymenu = musicroom; pos=0}, "Music"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {mymenu = profiles; pos=0}, "Profiles"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {textbox_create(txt_peace); kys}, "Start"),
 ], function() {
 	
 }, function() {
@@ -15,13 +17,13 @@ title = new menu([
 });
 z=0
 musicroom = new menu([
-	new mbutton(10, dist*z+++10, function() {mymenu = title; pos=2}, "exit"),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.tanuki)}, "m_aisako"),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.dichromatic)}, "m_tamako"),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.colony)}, "m_myoku"),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.mountain)}, "m_mountain"),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.visitor)}, "m_visitor"),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.title)}, "m_title"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {mymenu = title; pos=2}, "exit"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.tanuki)}, "m_aisako"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.dichromatic)}, "m_tamako"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.colony)}, "m_myoku"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.mountain)}, "m_mountain"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.visitor)}, "m_visitor"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.title)}, "m_title"),
 ], function() {
 	
 }, function() {
@@ -29,19 +31,25 @@ musicroom = new menu([
 	pos = 2;
 });
 
+global.mex = 380;
+global.mey = 90;
+
 z=0;
 profiles = new menu([
-	new mbutton(10, dist*z+++10, function() {mymenu = title; pos=3}, "exit"),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.tanuki)}, "aisako", function() {c_buttdraw(); if hovered {
-		draw_string(80, 10, "aisako is the worst person ever.");
+	new mbutton(xdraw, dist*z+++ydraw, function() {mymenu = title; pos=3}, "exit"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.tanuki)}, "aisako", function() {c_buttdraw(); if hovered {
+		draw_set_color(#9D6342);
+		draw_string(global.mex, global.mey, "aisako is the worst person ever.");
 		draw_spr(280, 400, s_example);
 	}}),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.dichromatic)}, "tamako", function() {c_buttdraw(); if hovered {
-		draw_string(80, 10, "tamako is funny, not enough to do standup but she tries.");
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.dichromatic)}, "tamako", function() {c_buttdraw(); if hovered {
+		draw_set_color(#9D6342);
+		draw_string(global.mex, global.mey, "tamako is funny, not enough to do standup but she tries.");
 		draw_spr(280, 400, s_example);
 	}}),
-	new mbutton(10, dist*z+++10, function() {music_set(mus.colony)}, "myoku", function() {c_buttdraw(); if hovered {
-		draw_string(80, 10, "myoku is currently collecting elemental crystals for wizards.\ndo not interrupt her.")
+	new mbutton(xdraw, dist*z+++ydraw, function() {music_set(mus.colony)}, "myoku", function() {c_buttdraw(); if hovered {
+		draw_set_color(#9D6342);
+		draw_string(global.mex, global.mey, "myoku is currently collecting elemental crystals for wizards.\ndo not interrupt her.")
 		draw_spr(280, 400, s_example);
 	}}),
 ], function() {
@@ -53,9 +61,9 @@ profiles = new menu([
 
 z=0;
 credits = new menu([
-	new mbutton(10, dist*z+++10, function() {mymenu = title; pos=1}, "exit"),
+	new mbutton(xdraw, dist*z+++ydraw, function() {mymenu = title; pos=1}, "exit"),
 ], function() {
-	draw_string(80, 10, @"CREDITS:
+	draw_string(global.mex, global.mey, @"CREDITS:
 AEON - EVERYTHING
 solaris - idk i think he just yelled at me
 anyone else - hindrances to the realization of my perfect world
